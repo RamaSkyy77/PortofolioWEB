@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafli Ramadhan - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">BERANDA</a></li>
+                <li><a href="#about">TENTANG SAYA</a></li>
+                <li><a href="#portfolio">PORTOFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <img src="foto.png" alt="Project 1">
+        <h1>Mochammad Rafli Ramadhan</h1>
+        <p>Mahasiswa Informatika</p>
+        <p>Tujuan saya adalah memberikan solusi teknologi yang inovatif dan efektif.</p>
+    </section>
+    <section id="about">
+    <h2>ABOUT</h2>
+    <div class="about-text">
+        <h3>Tentang Saya</h3>
+        <p>
+            Halo! Saya Mochammad Rafli Ramadhan, seorang mahasiswa jurusan Informatika di Universitas Kuningan.
+            Saya memiliki minat besar dalam pengembangan perangkat lunak dan teknologi web. Dengan keterampilan di
+            HTML, CSS, dan JavaScript, saya terus berupaya untuk meningkatkan kemampuan saya dalam menciptakan aplikasi berbasis Web yang bermanfaat.
+        </p>
+    </div>
+    <div class="about-text">
+        <h3>Pendidikan</h3>
+        <ul>
+            <li>SDN 1 Nanggela (2011-2014)</li>
+            <li>SDN 2 Nanggela (2014-2017)</li>
+            <li>SMPN 1 Cidahu (2017-2020)</li>
+            <li>SMKN 4 Kuningan (2020-2023)</li>
+            <li>S1 Informatika, Universitas Kuningan (2023 - sekarang)</li>
+        </ul>
+    </div>
+        <div class="about-text">
+            <h3>Keterampilan</h3>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+            </ul>
+        </div>
+    
+        <div class="about-text">
+            <h3>Tujuan Karier</h3>
+            <p>
+                Menciptakan solusi teknologi inovatif yang membantu masyarakat dan perusahaan berkembang di era digital.
+            </p>
+        </div>
+    </section>
+    
+    <section id="portfolio">
+        <h2>PORTOFOLIO</h2>
+        <div class="gallery">
+            <div class="project">
+                <img src="Project1.png" alt="Project 1">
+                <h3>WEB STORE LAPTOP</h3>
+                <p>Web ini bisa di gunakan
+                     untuk orang-orang yang memiliki usaha online
+                      store untuk menjual suatu barang Seperti 
+                      Laptop, hp dan masih banyak lagi</p>
+            </div>
+            <div class="project">
+                <img src="Project2.png" alt="Project 2">
+                <h3>WEB PEDULI DIRI</h3>
+                <p>Web ini digunakan untuk mendata kesehatan,
+                    di dalam nya ada data suhu tubuh,usia,
+                    berat badan dan tinggi badan</p>
+            </div>
+            <div class="project">
+                <img src="Project3.png" alt="Project 3">
+                <h3>WEB HOTEL</h3>
+                <p>Web ini untuk merekomendasikan hotel-hotel mewah di berbagai daerah</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="contact.php" method="POST">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" required></textarea>
+
+            <button type="submit">Kirim</button>
+        </form>
+        <p>Ikuti saya di media sosial:</p>
+            <div class="social-links">
+                <a href="https://instagram.com/ramaskyyz" target="_blank">
+                    <img src="igremove.png" alt="Instagram">
+                    Instagram
+                </a>
+                <a href="http://t.me/ramaaasky" target="_blank">
+                    <img src="Telegram_logo.svg.webp" alt="Telegram">
+                    Telegram
+                </a>
+            </div>
+    </section>
+
+    <footer>
+        <p>&copy 2024 Mochammad Rafli Ramadhan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
